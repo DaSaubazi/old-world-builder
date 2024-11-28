@@ -2,8 +2,8 @@
   "characters": [
     {
       "name_en": "Black Orc Warboss",
+      "name_de": "Schwarzork-Waaaghboss",
       "name_cn": "黑兽人老大",
-      "name_de": "Black Orc Warboss",
       "name_fr": "Chef de Guerre Orque Noir",
       "id": "black-orc-warboss",
       "points": 135,
@@ -13,7 +13,7 @@
           "notes": {
             "name_en": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
-            "name_de": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
+            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte",
             "name_es": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
           }
@@ -22,8 +22,9 @@
           "category": "characters",
           "notes": {
             "name_en": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
-            "name_cn": "0-1Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
+            "name_cn": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_de": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
+            "name_de": "0-1 Schwarzork-Waaaghboss oder Schwarzork-Gargboss pro Schwarzork-Wildschweinstreitwagen",
             "name_es": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir"
           }
@@ -43,7 +44,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -53,7 +54,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -61,7 +62,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -69,12 +70,13 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
+            "name_de": "Wenn beritten",
             "name_cn": "若处于骑乘状态",
             "name_fr": "S'il est monté"
           }
@@ -84,7 +86,7 @@
         {
           "name_en": "Full plate armour",
           "name_cn": "全身甲",
-          "name_de": "Full plate armour",
+          "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "points": 0,
           "perModel": true,
@@ -95,7 +97,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true
@@ -105,7 +107,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -113,76 +115,82 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         },
         {
           "name_en": "Boar Chariot",
           "name_cn": "野猪战车",
-          "name_de": "Boar Chariot",
+          "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
           "points": 90,
           "options": [
             {
               "name_en": "Third Orc crew member",
               "name_cn": "第三个兽人乘员",
-              "name_de": "Third Orc crew member",
+              "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
               "points": 5
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
-                  "name_fr": "Si 2 auriges"
+                  "name_fr": "Si 2 auriges",
+                  "name_de": "Bei 2 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
-                  "name_fr": "Si 3 auriges"
+                  "name_fr": "Si 3 auriges",
+                  "name_de": "Bei 3 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Warpaint",
               "name_cn": "战漆",
-              "name_de": "Warpaint",
+              "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
+                "name_de": "Wenn rasend",
                 "name_fr": "Si frénétique"
               }
             }
@@ -191,23 +199,23 @@
         {
           "name_en": "Black Orc Boar Chariot",
           "name_cn": "黑兽人野猪战车",
-          "name_de": "Black Orc Boar Chariot",
+          "name_de": "Schwarzork-Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers Orque Noir",
           "points": 130,
           "options": [
             {
-              "name_en": "Hand weapon, Additional hand weapon",
+              "name_en": "Hand weapons, Additional hand weapons",
               "name_cn": "单手武器, 额外单手武器",
-              "name_de": "Hand weapon, Additional hand weapon",
+              "name_de": "Handwaffen, Zusätzliche Handwaffen",
               "points": 2,
               "exclusive": true,
               "active": true,
               "name_fr": "Arme de base, Arme de base additionnelle"
             },
             {
-              "name_en": "Hand weapon, Great weapon",
+              "name_en": "Hand weapons, Great weapons",
               "name_cn": "单手武器, 重型武器",
-              "name_de": "Hand weapon, Great weapon",
+              "name_de": "Handwaffen, Zweihandwaffen",
               "points": 4,
               "exclusive": true,
               "name_fr": "Arme de base, Arme lourde"
@@ -215,7 +223,7 @@
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "points": 10,
               "name_fr": "Porte-étendard"
             }
@@ -224,13 +232,14 @@
         {
           "name_en": "Wyvern",
           "name_cn": "双足飞龙",
-          "name_de": "Wyvern",
+          "name_de": "Lindwurm",
           "name_fr": "Vouivre",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
-            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur"
+            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
           }
         }
       ],
@@ -248,7 +257,7 @@
       "specialRules": {
         "name_en": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋(doesn't apply to a mount), 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
-        "name_de": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_de": "Spaltas, Da Jungs, Rasender Angriff (gilt nicht für ein Reittier), Panik ignorieren, Ungestüm unterdrücken, Sammelruf, Waaagh!",
         "name_es": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
       }
@@ -256,7 +265,7 @@
     {
       "name_en": "Black Orc Bigboss",
       "name_cn": "黑兽人勇士",
-      "name_de": "Black Orc Bigboss",
+      "name_de": "Schwarzork-Gargboss",
       "name_fr": "Grand Chef Orque Noir",
       "id": "black-orc-bigboss",
       "points": 75,
@@ -269,7 +278,7 @@
           "notes": {
             "name_en": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_cn": "0-1Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
-            "name_de": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
+            "name_de": "0-1 Schwarzork-Waaaghboss oder Schwarzork-Gargboss pro Schwarzork-Wildschweinstreitwagen",
             "name_es": "0-1 Black Orc Warboss or Black Orc Bigboss per Black Orc Boar Chariot",
             "name_fr": "0-1 Chef de Guerre Orque Noir ou Grand Chef Orque Noir par Char à Sangliers Orque Noir"
           }
@@ -287,7 +296,7 @@
         {
           "name_en": "Battle Standard Bearer",
           "name_cn": "战旗手",
-          "name_de": "Battle Standard Bearer",
+          "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
           "points": 25,
@@ -301,7 +310,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -311,7 +320,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -319,7 +328,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -327,14 +336,15 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_de": "Wenn beritten"
           }
         }
       ],
@@ -342,7 +352,7 @@
         {
           "name_en": "Full plate armour",
           "name_cn": "全身甲",
-          "name_de": "Full plate armour",
+          "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "points": 0,
           "perModel": true,
@@ -353,7 +363,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -365,7 +375,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -373,77 +383,83 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         },
         {
           "name_en": "Boar Chariot",
           "name_cn": "野猪战车",
-          "name_de": "Boar Chariot",
+          "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
           "points": 90,
           "options": [
             {
               "name_en": "Third Orc crew member",
               "name_cn": "第三个兽人乘员",
-              "name_de": "Third Orc crew member",
+              "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
               "points": 5
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
-                  "name_fr": "Si 2 auriges"
+                  "name_fr": "Si 2 auriges",
+                  "name_de": "Bei 2 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
-                  "name_fr": "Si 3 auriges"
+                  "name_fr": "Si 3 auriges",
+                  "name_de": "Bei 3 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Warpaint",
               "name_cn": "战漆",
-              "name_de": "Warpaint",
+              "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
-                "name_fr": "Si frénétique"
+                "name_fr": "Si frénétique",
+                "name_de": "Wenn rasend"
               }
             }
           ]
@@ -451,23 +467,23 @@
         {
           "name_en": "Black Orc Boar Chariot",
           "name_cn": "黑兽人野猪战车",
-          "name_de": "Black Orc Boar Chariot",
+          "name_de": "Schwarzork-Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers Orque Noir",
           "points": 130,
           "options": [
             {
               "name_en": "Hand weapon, Additional hand weapon",
               "name_cn": "单手武器, 额外单手武器",
-              "name_de": "Hand weapon, Additional hand weapon",
+              "name_de": "Handwaffe, Zusätzliche Handwaffe",
               "points": 2,
               "exclusive": true,
               "active": true,
               "name_fr": "Arme de base, Arme de base additionnelle"
             },
             {
-              "name_en": "Hand weapon, Great weapon",
+              "name_en": "Hand weapons, Great weapons",
               "name_cn": "单手武器, 重型武器",
-              "name_de": "Hand weapon, Great weapon",
+              "name_de": "Handwaffen, Zweihandwaffen",
               "points": 4,
               "exclusive": true,
               "name_fr": "Arme de base, Arme lourde"
@@ -475,7 +491,7 @@
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "points": 10,
               "name_fr": "Porte-étendard"
             }
@@ -496,7 +512,7 @@
       "specialRules": {
         "name_en": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_cn": "大砍刀, 大只佬, 狂怒冲锋(doesn't apply to a mount), 无视恐慌, 抑制鲁莽, 集结战吼, Waaagh!",
-        "name_de": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
+        "name_de": "Spaltas, Da Jungs, Rasender Angriff (gilt nicht für ein Reittier), Panik ignorieren, Ungestüm unterdrücken, Sammelruf, Waaagh!",
         "name_es": "Choppas, Da Boyz, Furious Charge (doesn't apply to a mount), Ignore Panic, Quell Impetuosity, Rallying Cry, Waaagh!",
         "name_fr": "Kikoup', Lé Boyz, Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique, Calme l'Impétuosité, Cri de Ralliement, Waaagh!"
       }
@@ -504,7 +520,7 @@
     {
       "name_en": "Orc Warboss",
       "name_cn": "兽人战将",
-      "name_de": "Orc Warboss",
+      "name_de": "Ork-Waaaghboss",
       "name_fr": "Chef de Guerre Orque",
       "id": "orc-warboss",
       "points": 110,
@@ -514,7 +530,8 @@
           "notes": {
             "name_en": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         },
         "nomadic-waaagh": {
@@ -522,7 +539,8 @@
           "notes": {
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         },
         "troll-horde": {
@@ -530,7 +548,8 @@
           "notes": {
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         }
       },
@@ -548,7 +567,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -558,7 +577,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -566,7 +585,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -574,7 +593,7 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true
@@ -584,7 +603,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -593,7 +612,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "points": 3,
           "perModel": true
@@ -601,14 +620,15 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 3,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_de": "0-1 pro 1000 Punkte"
           }
         }
       ],
@@ -616,7 +636,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -626,14 +646,15 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 5,
           "perModel": true,
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_de": "Wenn rasend"
           }
         }
       ],
@@ -641,7 +662,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -649,77 +670,83 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         },
         {
           "name_en": "Boar Chariot",
           "name_cn": "野猪战车",
-          "name_de": "Boar Chariot",
+          "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
           "points": 90,
           "options": [
             {
               "name_en": "Third Orc crew member",
               "name_cn": "第三个兽人乘员",
-              "name_de": "Third Orc crew member",
+              "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
               "points": 5
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
-                  "name_fr": "Si 2 auriges"
+                  "name_fr": "Si 2 auriges",
+                  "name_de": "Bei 2 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
-                  "name_fr": "Si 3 auriges"
+                  "name_fr": "Si 3 auriges",
+                  "name_de": "Bei 3 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Warpaint",
               "name_cn": "战漆",
-              "name_de": "Warpaint",
+              "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
-                "name_fr": "Si frénétique"
+                "name_fr": "Si frénétique",
+                "name_de": "Wenn rasend"
               }
             }
           ]
@@ -727,13 +754,14 @@
         {
           "name_en": "Wyvern",
           "name_cn": "双足飞龙",
-          "name_de": "Wyvern",
+          "name_de": "Lindwurm",
           "name_fr": "Vouivre",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
-            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur"
+            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
           }
         }
       ],
@@ -751,7 +779,7 @@
       "specialRules": {
         "name_en": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
         "name_cn": "大砍刀, 狂怒冲锋(doesn't apply to a mount), 无视地精恐慌, 鲁莽, 集结战吼, Waaagh!, 战帮",
-        "name_de": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
+        "name_de": "Spaltas, Rasender Angriff (gilt nicht für ein Reittier), Goblin-Panik ignorieren, Ungestüm, Sammelruf, Waaagh!, Kriegerschar",
         "name_es": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
         "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre"
       }
@@ -759,7 +787,7 @@
     {
       "name_en": "Orc Bigboss",
       "name_cn": "兽人勇士",
-      "name_de": "Orc Bigboss",
+      "name_de": "Ork-Gargboss",
       "name_fr": "Grand Chef Orque",
       "id": "orc-bigboss",
       "points": 55,
@@ -775,7 +803,7 @@
         {
           "name_en": "Battle Standard Bearer",
           "name_cn": "战旗手",
-          "name_de": "Battle Standard Bearer",
+          "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
           "points": 25,
@@ -789,7 +817,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -799,7 +827,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -807,7 +835,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -815,7 +843,7 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true
@@ -825,7 +853,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -834,7 +862,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "points": 3,
           "perModel": true
@@ -842,14 +870,15 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 3,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_de": "0-1 pro 1000 Punkte"
           }
         }
       ],
@@ -857,7 +886,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -867,14 +896,15 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 5,
           "perModel": true,
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_de": "Wenn rasend"
           }
         }
       ],
@@ -882,7 +912,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -890,77 +920,83 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         },
         {
           "name_en": "Boar Chariot",
           "name_cn": "野猪战车",
-          "name_de": "Boar Chariot",
+          "name_de": "Wildschweinstreitwagen",
           "name_fr": "Char à Sangliers",
           "points": 90,
           "options": [
             {
               "name_en": "Third Orc crew member",
               "name_cn": "第三个兽人乘员",
-              "name_de": "Third Orc crew member",
+              "name_de": "Drittes Ork-Besatzungsmitglied",
               "name_fr": "Troisième Aurige Orque",
               "points": 5
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 4,
               "notes": [
                 {
                   "name_en": "If 2 crew members",
                   "name_cn": "If 2 crew members",
-                  "name_fr": "Si 2 auriges"
+                  "name_fr": "Si 2 auriges",
+                  "name_de": "Bei 2 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Frenzy",
               "name_cn": "狂暴",
-              "name_de": "Frenzy",
+              "name_de": "Raserei",
               "name_fr": "Frénésie",
               "points": 6,
               "notes": [
                 {
                   "name_en": "If 3 crew members",
                   "name_cn": "If 3 crew members",
-                  "name_fr": "Si 3 auriges"
+                  "name_fr": "Si 3 auriges",
+                  "name_de": "Bei 3 Besatzungsmitgliedern"
                 },
                 {
                   "name_en": "0-1 per 1000 points",
                   "name_cn": "0-1 per 1000 points",
-                  "name_fr": "0-1 par tranche de 1000 points"
+                  "name_fr": "0-1 par tranche de 1000 points",
+                  "name_de": "0-1 pro 1000 Punkte"
                 }
               ]
             },
             {
               "name_en": "Warpaint",
               "name_cn": "战漆",
-              "name_de": "Warpaint",
+              "name_de": "Kriegsbemalung",
               "name_fr": "Peintures de Guerre",
               "points": 10,
               "notes": {
                 "name_en": "If frenzied",
                 "name_cn": "若具有狂暴",
-                "name_fr": "Si frénétique"
+                "name_fr": "Si frénétique",
+                "name_de": "Wenn rasend"
               }
             }
           ]
@@ -980,7 +1016,7 @@
       "specialRules": {
         "name_en": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
         "name_cn": "大砍刀, 狂怒冲锋(doesn't apply to a mount), 无视地精恐慌, 鲁莽, 集结战吼, Waaagh!, 战帮",
-        "name_de": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
+        "name_de": "Spaltas, Rasender Angriff (gilt nicht für ein Reittier), Goblin-Panik ignorieren, Ungestüm, Sammelruf, Waaagh!, Kriegerschar",
         "name_es": "Choppas, Furious Charge (doesn't apply to a mount), Ignore Goblin Panic, Impetuous, Rallying Cry, Waaagh!, Warband",
         "name_fr": "Kikoup', Charge Dévastatrice (ne s'applique pas à la monture), Ignore la Panique des Gobelins, Impétueux, Cri de Ralliement, Waaagh!, Bande de Guerre"
       }
@@ -988,7 +1024,7 @@
     {
       "name_en": "Orc Weirdnob",
       "name_cn": "兽人疯老大",
-      "name_de": "Orc Weirdnob",
+      "name_de": "Ork-Obawirrkopp",
       "name_fr": "Bizarnob Orque",
       "id": "orc-weirdnob",
       "points": 140,
@@ -998,7 +1034,8 @@
           "notes": {
             "name_en": "0-1 Black Orc Warboss, Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "0-1黑兽人老大, 每1000分兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque Noir, Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Schwarzork-Waaaghboss, Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         },
         "nomadic-waaagh": {
@@ -1006,7 +1043,8 @@
           "notes": {
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         },
         "troll-horde": {
@@ -1014,7 +1052,8 @@
           "notes": {
             "name_en": "0-1 Orc Warboss or Orc Weirdnob per 1000 points",
             "name_cn": "每1000分0-1兽人战将或兽人疯老大",
-            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points"
+            "name_fr": "0-1 Chef de Guerre Orque ou Bizarnob Orque par tranche de 1000 points",
+            "name_de": "0-1 Ork-Waaaghboss oder Ork-Obawirrkopp pro 1000 Punkte"
           }
         }
       },
@@ -1032,7 +1071,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1043,14 +1082,15 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 0,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_de": "0-1 pro 1000 Punkte"
           }
         }
       ],
@@ -1058,7 +1098,7 @@
         {
           "name_en": "Level 4 Wizard",
           "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
+          "name_de": "Stufe 4 Zauberer",
           "name_fr": "Sorcier de Niveau 4",
           "points": 30,
           "perModel": true,
@@ -1068,14 +1108,15 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 5,
           "perModel": true,
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_de": "Wenn rasend"
           }
         }
       ],
@@ -1083,7 +1124,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1091,25 +1132,27 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         },
         {
           "name_en": "Wyvern",
           "name_cn": "双足飞龙",
-          "name_de": "Wyvern",
+          "name_de": "Lindwurm",
           "name_fr": "Vouivre",
           "points": 130,
           "specialRules": {
             "name_en": "Close Order, Fly (9), Large Target, Stomp Attacks (D3), Swiftstride, Terror",
             "name_cn": "紧密阵型, 飞行(9), 大型目标, 践踏攻击(D3), 快速行进, 惊骇",
-            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur"
+            "name_fr": "Ordre Serré, Vol (9), Grande Cible, Attaques de Piétinement (D3), Rapide, Terreur",
+            "name_de": "Geschlossene Ränge, Fliegen (9), Großes Zield, Stampfattacken (W3), Schnelle Bewegung, Entsetzen"
           }
         }
       ],
@@ -1128,7 +1171,7 @@
       "specialRules": {
         "name_en": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
-        "name_de": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
+        "name_de": "Spaltas, Goblin-Panik ignorieren, Lehre des Gork, Grüner Mob, Kriegerschar",
         "name_es": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre"
       }
@@ -1136,7 +1179,7 @@
     {
       "name_en": "Orc Weirdboy",
       "name_cn": "兽人疯小子",
-      "name_de": "Orc Weirdboy",
+      "name_de": "Ork-Wirrkopp",
       "name_fr": "Bizarboy Orque",
       "id": "orc-weirdboy",
       "points": 65,
@@ -1154,7 +1197,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1165,14 +1208,15 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 0,
           "perModel": true,
           "notes": {
             "name_en": "0-1 per 1000 points",
             "name_cn": "每1000分0-1",
-            "name_fr": "0-1 par tranche de 1000 points"
+            "name_fr": "0-1 par tranche de 1000 points",
+            "name_de": "0-1 pro 1000 Punkte"
           }
         }
       ],
@@ -1180,7 +1224,7 @@
         {
           "name_en": "Level 2 Wizard",
           "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
+          "name_de": "Stufe 2 Zauberer",
           "name_fr": "Sorcier de Niveau 2",
           "points": 30,
           "perModel": true,
@@ -1190,14 +1234,15 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 5,
           "perModel": true,
           "notes": {
             "name_en": "If frenzied",
             "name_cn": "若具有狂暴",
-            "name_fr": "Si frénétique"
+            "name_fr": "Si frénétique",
+            "name_de": "Wenn rasend"
           }
         }
       ],
@@ -1205,7 +1250,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1213,13 +1258,14 @@
         {
           "name_en": "War Boar",
           "name_cn": "战猪",
-          "name_de": "War Boar",
+          "name_de": "Wildschwein",
           "name_fr": "Sanglier",
           "points": 16,
           "specialRules": {
             "name_en": "Armoured Hide (1), Counter Charge, Swiftstride, Tusker Charge",
             "name_cn": "坚硬皮肤(1), 反制冲锋, 快速行进, 獠牙冲锋",
-            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier"
+            "name_fr": "Peau Blindée (1), Contre-charge, Rapide, Charge de Sanglier",
+            "name_de": "Zähe Haut (1), Gegenangriff, Schnelle Bewegung, Hauerangriff"
           }
         }
       ],
@@ -1238,7 +1284,7 @@
       "specialRules": {
         "name_en": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_cn": "大砍刀, 无视地精恐慌, 搞哥法系, 帮派大哥, 战帮",
-        "name_de": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
+        "name_de": "Spaltas, Goblin-Panik ignorieren, Lehre des Gork, Grüner Mob, Kriegerschar",
         "name_es": "Choppas, Ignore Goblin Panic, Lore of Gork, Mob Rule, Warband",
         "name_fr": "Kikoup', Ignore la Panique des Gobelins, Domaine de Gork, La Loi du Nombre, Bande de Guerre"
       }
@@ -1246,7 +1292,7 @@
     {
       "name_en": "Goblin Warboss",
       "name_cn": "地精战将",
-      "name_de": "Goblin Warboss",
+      "name_de": "Goblin-Waaaghboss",
       "name_fr": "Chef de Guerre Gobelin",
       "id": "goblin-warboss",
       "points": 60,
@@ -1264,7 +1310,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1274,7 +1320,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -1282,7 +1328,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -1290,14 +1336,15 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_de": "Wenn beritten"
           }
         }
       ],
@@ -1305,7 +1352,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 3,
           "perModel": true
@@ -1315,7 +1362,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -1327,7 +1374,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1335,7 +1382,7 @@
         {
           "name_en": "Giant Wolf",
           "name_cn": "巨狼",
-          "name_de": "Giant Wolf",
+          "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
           "points": 10,
           "options": [
@@ -1344,45 +1391,48 @@
               "name_cn": "伏击",
               "points": 10,
               "armyComposition": ["nomadic-waaagh"],
-              "name_fr": "Embusqueurs"
+              "name_fr": "Embusqueurs",
+              "name_de": "Überfall"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
-            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide"
+            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Gigantic Spider",
           "name_cn": "巨型蜘蛛",
-          "name_de": "Gigantic Spider",
+          "name_de": "Gigantula",
           "name_fr": "Araignée Géante",
           "points": 35,
           "specialRules": {
             "name_en": "Armoured Hide (1), Fast Cavalry, Poisoned Attacks, Swiftstride",
             "name_cn": "坚硬皮肤(1), 快速骑兵, 淬毒攻击, 快速行进",
-            "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide"
+            "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide",
+            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Wolf Chariot",
           "name_cn": "野狼战车",
-          "name_de": "Wolf Chariot",
+          "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
           "points": 53,
           "options": [
             {
               "name_en": "Third Giant Wolf",
               "name_cn": "第三只巨狼",
-              "name_de": "Third Giant Wolf",
+              "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
               "points": 5
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
               "points": 5
             }
@@ -1403,7 +1453,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Impetuous, Rallying Cry, Warband",
         "name_cn": "惧怕精灵, 鲁莽, 集结战吼, 战帮",
-        "name_de": "Fear of Elves, Impetuous, Rallying Cry, Warband",
+        "name_de": "Angst vor Elfen, Ungestüm, Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Impetuous, Rallying Cry, Warband",
         "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre"
       }
@@ -1411,7 +1461,7 @@
     {
       "name_en": "Goblin Bigboss",
       "name_cn": "地精勇士",
-      "name_de": "Goblin Bigboss",
+      "name_de": "Goblin-Gargboss",
       "name_fr": "Grand Chef Gobelin",
       "id": "goblin-bigboss",
       "points": 35,
@@ -1427,7 +1477,7 @@
         {
           "name_en": "Battle Standard Bearer",
           "name_cn": "战旗手",
-          "name_de": "Battle Standard Bearer",
+          "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
           "points": 25,
@@ -1441,7 +1491,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1451,7 +1501,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -1459,7 +1509,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -1467,14 +1517,15 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_de": "Wenn beritten"
           }
         }
       ],
@@ -1482,7 +1533,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 3,
           "perModel": true
@@ -1492,7 +1543,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -1504,7 +1555,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1512,7 +1563,7 @@
         {
           "name_en": "Giant Wolf",
           "name_cn": "巨狼",
-          "name_de": "Giant Wolf",
+          "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
           "points": 10,
           "options": [
@@ -1521,45 +1572,49 @@
               "name_cn": "伏击",
               "points": 10,
               "armyComposition": ["nomadic-waaagh"],
-              "name_fr": "Embusqueurs"
+              "name_fr": "Embusqueurs",
+              "name_de": "Überfall"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
-            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide"
+            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Gigantic Spider",
           "name_cn": "巨型蜘蛛",
           "name_de": "Gigantic Spider",
+          "name_de": "Gigantula",
           "name_fr": "Araignée Géante",
           "points": 35,
           "specialRules": {
             "name_en": "Armoured Hide (1), Fast Cavalry, Poisoned Attacks, Swiftstride",
             "name_cn": "坚硬皮肤(1), 快速骑兵, 淬毒攻击, 快速行进",
-            "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide"
+            "name_fr": "Peau Blindée (1), Cavalerie Rapide, Attaques Empoisonnées, Rapide",
+            "name_de": "Zähe Haut (1), Wendige Kavallerie, Giftattacken, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Wolf Chariot",
           "name_cn": "野狼战车",
-          "name_de": "Wolf Chariot",
+          "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
           "points": 53,
           "options": [
             {
               "name_en": "Third Giant Wolf",
               "name_cn": "第三只巨狼",
-              "name_de": "Third Giant Wolf",
+              "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
               "points": 5
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
               "points": 5
             }
@@ -1580,7 +1635,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Impetuous, Rallying Cry, Warband",
         "name_cn": "惧怕精灵, 鲁莽, 集结战吼, 战帮",
-        "name_de": "Fear of Elves, Impetuous, Rallying Cry, Warband",
+        "name_de": "Angst vor Elfen, Ungestüm, Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Impetuous, Rallying Cry, Warband",
         "name_fr": "Peur des Elfes, Impétueux, Cri de Ralliement, Bande de Guerre"
       }
@@ -1588,7 +1643,7 @@
     {
       "name_en": "Goblin Oddnob",
       "name_cn": "地精怪老大",
-      "name_de": "Goblin Oddnob",
+      "name_de": "Goblin-Oddboss",
       "name_fr": "Zarbnob Gobelin",
       "id": "goblin-oddnod",
       "points": 135,
@@ -1606,7 +1661,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1618,7 +1673,7 @@
         {
           "name_en": "Level 4 Wizard",
           "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
+          "name_de": "Stufe 4 Zauberer",
           "name_fr": "Sorcier de Niveau 4",
           "points": 30,
           "perModel": true,
@@ -1630,7 +1685,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1638,7 +1693,7 @@
         {
           "name_en": "Giant Wolf",
           "name_cn": "巨狼",
-          "name_de": "Giant Wolf",
+          "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
           "points": 10,
           "options": [
@@ -1647,33 +1702,34 @@
               "name_cn": "伏击",
               "points": 10,
               "armyComposition": ["nomadic-waaagh"],
-              "name_fr": "Embusqueurs"
+              "name_fr": "Embusqueurs",
+              "name_de": "Überfall"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
-            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide"
+            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Wolf Chariot",
           "name_cn": "野狼战车",
-          "name_de": "Wolf Chariot",
-          "name_fr": "Char à Loups",
+          "name_de": "Wolfstreitwagen",
           "points": 53,
           "options": [
             {
               "name_en": "Third Giant Wolf",
               "name_cn": "第三只巨狼",
-              "name_de": "Third Giant Wolf",
+              "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
               "points": 5
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
               "points": 5
             }
@@ -1682,7 +1738,7 @@
         {
           "name_en": "Arachnarok Spider",
           "name_cn": "阿拉克纳瑞巨蛛",
-          "name_de": "Arachnarok Spider",
+          "name_de": "Arachnarok-Spinne",
           "name_fr": "Arachnarok",
           "points": 310,
           "options": [
@@ -1690,13 +1746,15 @@
               "name_en": "Spidersilk lobber",
               "name_cn": "蛛丝投掷器",
               "name_fr": "Catatoile",
+              "name_de": "Spinnnenseidenwerfer",
               "points": 35
             }
           ],
           "specialRules": {
             "name_en": "Close Order, Howdah, Immune to Psychology, Large Target, Move Through Cover, Poisoned Attacks, Stomp Attacks (D6), Stubborn, Swiftstride, Terror",
             "name_cn": "紧密阵型, 驼轿, 心理免疫, 大型目标, 穿行掩体, 淬毒攻击, 践踏攻击(D6), 坚毅, 快速行进, 惊骇",
-            "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur"
+            "name_fr": "Ordre Serré, Howdah, Immunisé à la Psychologie, Grande Cible, Mouvement à Couvert, Attaques Empoisonnées, Attaques de Piétinement (D6), Obstiné, Rapide, Terreur",
+            "name_de": "Geschlossene Ränge, Sänfte, Immune gegen Psychologie, Großes Ziel, Durch Deckung bewegen, Giftattacken, Stampfattacken (W6), Unnachgiebig, Schnelle Bewegung, Entsetzen"
           }
         }
       ],
@@ -1715,7 +1773,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
-        "name_de": "Fear of Elves, Lore of Mork, Warband",
+        "name_de": "Angst vor Elfen, Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Lore of Mork, Warband",
         "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre"
       }
@@ -1723,7 +1781,7 @@
     {
       "name_en": "Goblin Oddgit",
       "name_cn": "地精怪家伙",
-      "name_de": "Goblin Oddgit",
+      "name_de": "Goblin-Oddgit",
       "name_fr": "Zarbzig Gobelin",
       "id": "goblin-oddgit",
       "points": 60,
@@ -1741,7 +1799,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1753,7 +1811,7 @@
         {
           "name_en": "Level 2 Wizard",
           "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
+          "name_de": "Stufe 2 Zauberer",
           "name_fr": "Sorcier de Niveau 2",
           "points": 30,
           "perModel": true,
@@ -1765,7 +1823,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1773,7 +1831,7 @@
         {
           "name_en": "Giant Wolf",
           "name_cn": "巨狼",
-          "name_de": "Giant Wolf",
+          "name_de": "Riesenwolf",
           "name_fr": "Loup Géant",
           "points": 10,
           "options": [
@@ -1782,33 +1840,35 @@
               "name_cn": "伏击",
               "points": 10,
               "armyComposition": ["nomadic-waaagh"],
-              "name_fr": "Embusqueurs"
+              "name_fr": "Embusqueurs",
+              "name_de": "Überfall"
             }
           ],
           "specialRules": {
             "name_en": "Chariot Runners, Fast Cavalry, Fire & Flee, Swiftstride",
             "name_cn": "战车骑伴, 快速骑兵, 游击, 快速行进",
-            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide"
+            "name_fr": "Escorteurs de Chars, Cavalerie Rapide, Tir & Fuite, Rapide",
+            "name_de": "Streitwagengarde, Wendige Kavallerie, Schießen und Verschwinden, Schnelle Bewegung"
           }
         },
         {
           "name_en": "Wolf Chariot",
           "name_cn": "野狼战车",
-          "name_de": "Wolf Chariot",
+          "name_de": "Wolfstreitwagen",
           "name_fr": "Char à Loups",
           "points": 53,
           "options": [
             {
               "name_en": "Third Giant Wolf",
               "name_cn": "第三只巨狼",
-              "name_de": "Third Giant Wolf",
+              "name_de": "Dritter Riesenwolf",
               "name_fr": "Troisième Loup Géant",
               "points": 5
             },
             {
               "name_en": "Standard bearer",
               "name_cn": "旗手",
-              "name_de": "Standard bearer",
+              "name_de": "Standartenträger",
               "name_fr": "Porte-étendard",
               "points": 5
             }
@@ -1830,7 +1890,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 毛哥法系, 战帮",
-        "name_de": "Fear of Elves, Lore of Mork, Warband",
+        "name_de": "Angst vor Elfen, Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Lore of Mork, Warband",
         "name_fr": "Peur des Elfes, Domaine de Mork, Bande de Guerre"
       }
@@ -1838,7 +1898,7 @@
     {
       "name_en": "Night Goblin Warboss",
       "name_cn": "夜地精战将",
-      "name_de": "Night Goblin Warboss",
+      "name_de": "Nachtgoblin-Waaaghboss",
       "name_fr": "Chef de Guerre Gobelin de la Nuit",
       "id": "night-goblin-warboss",
       "points": 55,
@@ -1861,7 +1921,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -1871,7 +1931,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -1879,7 +1939,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -1887,14 +1947,15 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_de": "Wenn beritten"
           }
         }
       ],
@@ -1902,7 +1963,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 3,
           "perModel": true
@@ -1912,7 +1973,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -1924,7 +1985,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -1932,13 +1993,14 @@
         {
           "name_en": "Giant Cave Squig",
           "name_cn": "巨型洞穴跳跳",
-          "name_de": "Giant Cave Squig",
+          "name_de": "Großer Höhlensquig",
           "name_fr": "Squig des Cavernes Géant",
           "points": 25,
           "specialRules": {
             "name_en": "Armoured Hide (1), Hatred (Dwarfs), Impact Hits (D3), Loner, Random Movement",
             "name_cn": "坚硬皮肤(1), 仇恨(矮人), 撞击(D3), 独行, 随机移动",
-            "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire"
+            "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire",
+            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung"
           }
         }
       ],
@@ -1956,7 +2018,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 集结战吼, 战帮",
-        "name_de": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
+        "name_de": "Angst vor Elfen, Hass (Zwerge), Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
         "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre"
       }
@@ -1964,7 +2026,7 @@
     {
       "name_en": "Night Goblin Bigboss",
       "name_cn": "夜地精勇士",
-      "name_de": "Night Goblin Bigboss",
+      "name_de": "Nachtgoblin-Gargboss",
       "name_fr": "Grand Chef Gobelin de la Nuit",
       "id": "night-goblin-bigboss",
       "points": 30,
@@ -1985,7 +2047,7 @@
         {
           "name_en": "Battle Standard Bearer",
           "name_cn": "战旗手",
-          "name_de": "Battle Standard Bearer",
+          "name_de": "Armeestandartenträger",
           "name_fr": "Porteur de la Grande Bannière",
           "name_es": "Battle Standard Bearer",
           "points": 25,
@@ -1999,7 +2061,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -2009,7 +2071,7 @@
         {
           "name_en": "Additional hand weapon",
           "name_cn": "额外单手武器",
-          "name_de": "Additional hand weapon",
+          "name_de": "Zusätzliche Handwaffe",
           "name_fr": "Arme de base additionnelle",
           "points": 3,
           "perModel": true
@@ -2017,7 +2079,7 @@
         {
           "name_en": "Great weapon",
           "name_cn": "重型武器",
-          "name_de": "Great weapon",
+          "name_de": "Zweihandwaffe",
           "name_fr": "Arme lourde",
           "points": 4,
           "perModel": true
@@ -2025,14 +2087,15 @@
         {
           "name_en": "Cavalry spear",
           "name_cn": "骑兵长矛",
-          "name_de": "Cavalry spear",
+          "name_de": "Kavalleriespeer",
           "name_fr": "Lance de cavalerie",
           "points": 2,
           "perModel": true,
           "notes": {
             "name_en": "If appropriately mounted",
             "name_cn": "若处于骑乘状态",
-            "name_fr": "S'il est monté"
+            "name_fr": "S'il est monté",
+            "name_de": "Wenn beritten"
           }
         }
       ],
@@ -2040,7 +2103,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 3,
           "perModel": true
@@ -2050,7 +2113,7 @@
         {
           "name_en": "Shield",
           "name_cn": "盾牌",
-          "name_de": "Shield",
+          "name_de": "Schild",
           "name_fr": "Bouclier",
           "points": 2,
           "perModel": true,
@@ -2062,7 +2125,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -2070,13 +2133,14 @@
         {
           "name_en": "Giant Cave Squig",
           "name_cn": "巨型洞穴跳跳",
-          "name_de": "Giant Cave Squig",
+          "name_de": "Großer Höhlensquig",
           "name_fr": "Squig des Cavernes Géant",
           "points": 25,
           "specialRules": {
             "name_en": "Armoured Hide (1), Hatred (Dwarfs), Impact Hits (D3), Loner, Random Movement",
             "name_cn": "坚硬皮肤(1), 仇恨(矮人), 撞击(D3), 独行, 随机移动",
-            "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire"
+            "name_fr": "Peau Blindée (1), Haine (Nains), Touches d'Impact (D3), Solitaire, Mouvement Aléatoire",
+            "name_de": "Zähe Haut (1), Hass (Zwerge), Aufpralltreffer (W3), Einzelgänger, Zufällige Bewegung"
           }
         }
       ],
@@ -2094,7 +2158,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 集结战吼, 战帮",
-        "name_de": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
+        "name_de": "Angst vor Elfen, Hass (Zwerge), Sammelruf, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Rallying Cry, Warband",
         "name_fr": "Peur des Elfes, Haine (Nains), Cri de Ralliement, Bande de Guerre"
       }
@@ -2102,7 +2166,7 @@
     {
       "name_en": "Night Goblin Oddnob",
       "name_cn": "夜地精萨满",
-      "name_de": "Night Goblin Oddnob",
+      "name_de": "Nachtgoblin-Oddnboss",
       "name_fr": "Zarbnob Gobelin de la Nuit",
       "id": "night-goblin-oddnob",
       "points": 130,
@@ -2125,7 +2189,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -2137,7 +2201,7 @@
         {
           "name_en": "Level 4 Wizard",
           "name_cn": "4级法师",
-          "name_de": "Level 4 Wizard",
+          "name_de": "Stufe 4 Zauberer",
           "name_fr": "Sorcier de Niveau 4",
           "points": 30,
           "perModel": true,
@@ -2149,7 +2213,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -2170,7 +2234,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
-        "name_de": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
+        "name_de": "Angst vor Elfen, Hass (Zwerge), Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre"
       }
@@ -2178,7 +2242,7 @@
     {
       "name_en": "Night Goblin Oddgit",
       "name_cn": "夜地精怪家伙",
-      "name_de": "Night Goblin Oddgit",
+      "name_de": "Nachtgoblin-Oddgit",
       "name_fr": "Zarbzig Gobelin de la Nuit",
       "id": "night-goblin-oddgit",
       "points": 55,
@@ -2201,7 +2265,7 @@
         {
           "name_en": "Hand weapon",
           "name_cn": "单手武器",
-          "name_de": "Hand weapon",
+          "name_de": "Handwaffe",
           "name_fr": "Arme de base",
           "points": 0,
           "perModel": true,
@@ -2213,7 +2277,7 @@
         {
           "name_en": "Level 2 Wizard",
           "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
+          "name_de": "Stufe 2 Zauberer",
           "name_fr": "Sorcier de Niveau 2",
           "points": 30,
           "perModel": true,
@@ -2225,7 +2289,7 @@
         {
           "name_en": "On foot",
           "name_cn": "步行",
-          "name_de": "On foot",
+          "name_de": "Zu Fuß",
           "name_fr": "À Pied",
           "points": 0,
           "active": true
@@ -2246,7 +2310,7 @@
       "specialRules": {
         "name_en": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_cn": "惧怕精灵, 仇恨(矮人), 毛哥法系, 战帮",
-        "name_de": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
+        "name_de": "Angst vor Elfen, Hass (Zwerge), Lehre des Mork, Kriegerschar",
         "name_es": "Fear of Elves, Hatred (Dwarfs), Lore of Mork, Warband",
         "name_fr": "Peur des Elfes, Haine (Nains), Domaine de Mork, Bande de Guerre"
       }
@@ -2503,7 +2567,6 @@
   "core": [
     {
       "name_en": "Common Troll Mob",
-      "name_cn": "普通巨魔战帮",
       "name_de": "Common Troll Mob",
       "name_fr": "Bande de Trolls",
       "id": "common-troll-mob",
@@ -2758,7 +2821,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
@@ -2822,7 +2885,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -2831,7 +2894,7 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 1,
           "perModel": true,
@@ -2854,7 +2917,7 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 1,
           "perModel": true,
@@ -2948,7 +3011,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
@@ -2979,7 +3042,7 @@
         {
           "name_en": "Full plate armour",
           "name_cn": "全身甲",
-          "name_de": "Full plate armour",
+          "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "points": 0,
           "perModel": true,
@@ -3082,7 +3145,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
@@ -3129,7 +3192,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 1,
           "perModel": true
@@ -3245,7 +3308,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
@@ -3390,7 +3453,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
@@ -3438,7 +3501,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 1,
           "perModel": true
@@ -3478,7 +3541,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5,
           "magic": {
@@ -3525,7 +3588,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 1,
           "perModel": true
@@ -3631,7 +3694,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
@@ -3671,7 +3734,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -3680,7 +3743,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "points": 1,
           "perModel": true
@@ -3688,7 +3751,7 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 1,
           "perModel": true,
@@ -3726,7 +3789,7 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 1,
           "perModel": true,
@@ -3822,7 +3885,7 @@
     {
       "name_en": "Black Orc Boar Chariot",
       "name_cn": "黑兽人野猪战车",
-      "name_de": "Black Orc Boar Chariot",
+      "name_de": "Schwarzork-Wildschweinstreitwagen",
       "name_es": "Black Orc Boar Chariot",
       "name_fr": "Char à Sangliers Orque Noir",
       "name_it": "Black Orc Boar Chariot",
@@ -3843,7 +3906,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
@@ -3859,7 +3922,7 @@
         {
           "name_en": "Hand weapon, Additional hand weapon",
           "name_cn": "单手武器, 额外单手武器",
-          "name_de": "Hand weapon, Additional hand weapon",
+          "name_de": "Handwaffe, Zusätzliche Handwaffe",
           "name_es": "Hand weapon, Additional hand weapon",
           "name_fr": "Arme de base, Arme de base additionnelle",
           "name_it": "Hand weapon, Additional hand weapon",
@@ -3933,7 +3996,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
@@ -3964,7 +4027,7 @@
         {
           "name_en": "Full plate armour",
           "name_cn": "全身甲",
-          "name_de": "Full plate armour",
+          "name_de": "Plattenrüstung",
           "name_fr": "Armure de plate complète",
           "points": 0,
           "perModel": true,
@@ -4084,7 +4147,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 6,
           "magic": {
@@ -4124,7 +4187,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -4133,7 +4196,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "points": 1,
           "perModel": true
@@ -4141,7 +4204,7 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 1,
           "perModel": true,
@@ -4177,7 +4240,7 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 1,
           "perModel": true,
@@ -4268,7 +4331,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 1,
           "perModel": true
@@ -4338,14 +4401,14 @@
         {
           "name_en": "Third Orc crew member",
           "name_cn": "第三个兽人乘员",
-          "name_de": "Third Orc crew member",
+          "name_de": "Drittes Ork-Besatzungsmitglied",
           "name_fr": "Troisième Aurige Orque",
           "points": 5
         },
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 4,
           "notes": [
@@ -4364,7 +4427,7 @@
         {
           "name_en": "Frenzy",
           "name_cn": "狂暴",
-          "name_de": "Frenzy",
+          "name_de": "Raserei",
           "name_fr": "Frénésie",
           "points": 6,
           "notes": [
@@ -4383,7 +4446,7 @@
         {
           "name_en": "Warpaint",
           "name_cn": "战漆",
-          "name_de": "Warpaint",
+          "name_de": "Kriegsbemalung",
           "name_fr": "Peintures de Guerre",
           "points": 10,
           "notes": {
@@ -4639,7 +4702,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_fr": "Porte-étendard",
           "points": 5
         }
@@ -4707,7 +4770,6 @@
       "equipment": [
         {
           "name_en": "Hand weapons, Throwing weapons",
-          "name_cn": "单手武器, 投掷武器",
           "name_de": "Hand weapons, Throwing weapons",
           "name_fr": "Armes de base, Armes de lancer",
           "points": 0,
@@ -4801,7 +4863,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_fr": "Armure légère",
           "points": 0,
           "perModel": true,
@@ -4995,7 +5057,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_fr": "Armure lourde",
           "points": 0,
           "perModel": true,
@@ -5027,7 +5089,7 @@
     {
       "name_en": "Black Orc Boar Chariot",
       "name_cn": "黑兽人野猪战车",
-      "name_de": "Black Orc Boar Chariot",
+      "name_de": "Schwarzork-Wildschweinstreitwagen",
       "name_es": "Black Orc Boar Chariot",
       "name_fr": "Char à Sangliers Orque Noir",
       "name_it": "Black Orc Boar Chariot",
@@ -5043,7 +5105,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
@@ -5059,7 +5121,7 @@
         {
           "name_en": "Hand weapon, Additional hand weapon",
           "name_cn": "单手武器, 额外单手武器",
-          "name_de": "Hand weapon, Additional hand weapon",
+          "name_de": "Handwaffe, Zusätzliche Handwaffe",
           "name_es": "Hand weapon, Additional hand weapon",
           "name_fr": "Arme de base, Arme de base additionnelle",
           "name_it": "Hand weapon, Additional hand weapon",
@@ -5131,7 +5193,7 @@
         {
           "name_en": "Standard bearer",
           "name_cn": "旗手",
-          "name_de": "Standard bearer",
+          "name_de": "Standartenträger",
           "name_es": "Standard bearer",
           "name_fr": "Porte-étendard",
           "name_it": "Standard bearer",
@@ -5171,7 +5233,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
@@ -5183,7 +5245,7 @@
         {
           "name_en": "Heavy armour",
           "name_cn": "重甲",
-          "name_de": "Heavy armour",
+          "name_de": "Schwere Rüstung",
           "name_es": "Heavy armour",
           "name_fr": "Armure lourde",
           "name_it": "Heavy armour",
@@ -5273,7 +5335,7 @@
         {
           "name_en": "Light armour",
           "name_cn": "轻甲",
-          "name_de": "Light armour",
+          "name_de": "Leichte Rüstung",
           "name_es": "Light armour",
           "name_fr": "Armure légère",
           "name_it": "Light armour",
